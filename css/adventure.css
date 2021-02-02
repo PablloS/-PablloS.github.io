@@ -1,0 +1,160 @@
+
+.intro.adventure {
+    background: url('../img/header/2.jpg');
+}
+
+.headline {
+    margin-top: 280px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: orange;
+    text-align: end;
+}
+
+.adventure-about {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.adventure-about p {
+    width: 60%; 
+}
+
+.baikal { 
+    height: 90%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.kamchatka {
+    height: 90%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.altay {
+    height: 90%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.place-headline {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.place-about {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    margin-bottom: 75px;
+}
+
+.content {
+    position: relative;
+    width: 150%;
+    left: -20%;
+}
+
+
+/*карточки*/
+
+.cards {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cards__item {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    width: 530px; 
+}
+
+.cards__img img {
+    width: 426px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .3s ease-out;
+}
+
+.cards__img img:hover {
+    transform: scale(1.1);
+}
+
+.cards__text {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.cards-adventure__name {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cards-adventure__about {
+    margin-bottom: 20px;
+}
+
+.cards-more {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+.cards-more a {
+    position: relative;
+    width: 40%;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    transition: .3s linear;
+}
+
+.cards-more a::after {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    content: '';
+    height: 2px;
+    width: 80%;
+    background-color: orange;
+    transition: .3s linear;
+}
+
+.cards-more a:hover::after, 
+.cards-more a:focus::after{
+    left: 0;
+    width: 100%;
+}
+
+.cards-more a:hover,
+.cards-more a:focus {
+    color: orange;
+}
+
+
+
+

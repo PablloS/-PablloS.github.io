@@ -1,0 +1,26 @@
+.intro.company {
+    background: url('../img/header/4.jpg');
+}
+
+.headline {
+    margin-top: 280px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: orange;
+    text-align: end;
+}
+
+.company-about {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.company-about p {
+    width: 60%; 
+}
