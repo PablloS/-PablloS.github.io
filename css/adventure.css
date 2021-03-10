@@ -1,6 +1,6 @@
-
 .intro.adventure {
-    background: url('../img/header/2.jpg');
+    background: url('../img/header/2.jpg') center no-repeat;
+    background-size: cover;
 }
 
 .headline {
@@ -9,6 +9,14 @@
     font-family: 'Open Sans', sans-serif;
     color: orange;
     text-align: end;
+    transition: .4s ease-out;
+    transform: translate(120%, 0px);
+    opacity: 0;
+}
+
+.headline.active {
+    opacity: 1;
+    transform: translate(0px, 0px);
 }
 
 .adventure-about {
@@ -20,7 +28,16 @@
     text-align: end;
     display: flex;
     justify-content: flex-end;
+    transition: .5s ease-out;
+    transform: translate(120%, 0px);
+    opacity: 0;
 }
+
+.adventure-about.active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
 
 .adventure-about p {
     width: 60%; 
