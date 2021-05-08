@@ -133,11 +133,11 @@ header::before {
         max-width: 720px;
     }
     .header__logo {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .nav-link {
-        font-size: 15px;
+        font-size: 20px;
     }
 
 } 
@@ -149,7 +149,7 @@ header::before {
         overflow: hidden;
     }
     .header__burger {
-        margin-top: 10px;
+        margin-top: 25px;
         display: block;
         position: relative;
         width: 30px;
@@ -159,9 +159,9 @@ header::before {
     }
 
     .header__logo {
-        margin-top: 0px;
+        margin-top: 3px;
         margin-left: 15px;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     header::before {
@@ -169,7 +169,7 @@ header::before {
     }
 
     .header-inner {
-        height: 50px;
+        height: 75px;
     }
 
     .header__burger::before, 
@@ -338,11 +338,11 @@ header::before {
 
     .footer__contacts {
         left:  600px; 
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .contacts {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .whatsapp-icon {
@@ -361,10 +361,10 @@ header::before {
     }
 
     .footer__menu {
-        font-size: 12px; 
+        font-size: 15px; 
     }
     .footer__menu-link {
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 

@@ -4,6 +4,11 @@ $(document).ready( function() {
     $('.header__burger').click( function(event) {
         $('.header__burger, .nav').toggleClass('active'); 
         $('body').toggleClass('lock'); 
+        $('.nav-link').click(function(event) {
+            console.log("work")
+            $('.header__burger, .nav').removeClass('active'); 
+            $('body').removeClass('lock'); 
+        });
     });
 
     //плавная анимация прокручивания страницы по ссылке

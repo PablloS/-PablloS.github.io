@@ -112,3 +112,41 @@ a {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+@media (max-width: 750px) {
+    .headline { 
+        margin-top: 220px;
+    }
+   
+    .headline h1{
+        margin-right: 30px;
+    }
+    .blog-about {
+        margin-right: 30px;
+    }
+    .blog-about p {
+        width: 85%;
+    }
+}
+
+@media (max-width: 410px) {
+    .headline {
+        margin-top: 150px;
+        text-align: center;
+    }
+    .headline h1 {
+        margin-right: 0;
+    }
+    .blog-about {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1710px) {
+    .content {
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+    }
+}

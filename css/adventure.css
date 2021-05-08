@@ -172,6 +172,48 @@
     color: orange;
 }
 
+@media (max-width: 750px) {
+    .headline { 
+        margin-top: 220px;
+    }
+   
+    .headline h1{
+        margin-right: 30px;
+    }
+    .adventure-about {
+        margin-right: 30px;
+    }
+    .adventure-about p {
+        width: 85%;
+    }
+}
+
+@media (max-width: 410px) {
+    .headline {
+        margin-top: 150px;
+        text-align: center;
+    }
+    .headline h1 {
+        margin-right: 0;
+    }
+    .adventure-about {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 1710px) {
+    .content {
+        left: 0;
+        width: 100%;
+    }
+    .cards {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+}
+
 
 
 
