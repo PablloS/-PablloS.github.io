@@ -149,4 +149,7 @@ a {
         justify-content: center;
         flex-direction: row;
     }
+    .event {
+        margin-left: 0px; 
+    }
 }
