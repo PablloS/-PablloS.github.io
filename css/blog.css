@@ -150,6 +150,7 @@ a {
         flex-direction: row;
     }
     .event {
+        margin-right: 20px;
         margin-left: 0px; 
     }
 }
